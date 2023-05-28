@@ -17,6 +17,7 @@ public class LoginTest extends TestBase {
 
 	public WebDriver driver;
 	public SoftAssert softassert = new SoftAssert();
+	public LoginPage loginpage;
 
 	public LoginTest() throws Exception {
 		super();
@@ -27,12 +28,12 @@ public class LoginTest extends TestBase {
 		driver = initializeBrowserAndOpenApplication(prop.getProperty("browser"));
 		HomePage homepage = new HomePage(driver);
 		homepage.clickOnMyAccountLink();
-		homepage.selectLoginOption();
+		loginpage = homepage.selectLoginOption(); //this returns a new LoginPage
 	}
 
 	@Test(priority = 1, dataProvider = "TN", dataProviderClass = ExcelData.class, enabled = false)
 	public void verifyLoginWithValidCredentials(String username, String password) {
-		LoginPage loginpage = new LoginPage(driver);
+		
 		loginpage.enterEmailinEmailTextBoxField(username);
 		loginpage.enterPasswordinPasswordTextBoxField(password);
 		loginpage.clickOnLoginButton();
