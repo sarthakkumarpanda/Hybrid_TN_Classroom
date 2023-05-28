@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="12" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-28T14:16:14 GMT-04:00" name="TN Suite" finished-at="2023-05-28T14:17:27 GMT-04:00" duration-ms="72843">
+    <groups>
+    </groups>
+    <test started-at="2023-05-28T14:16:14 GMT-04:00" name="TN Test" finished-at="2023-05-28T14:17:27 GMT-04:00" duration-ms="72843">
+      <class name="com.tn.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:04 GMT-04:00" name="setup" finished-at="2023-05-28T14:17:09 GMT-04:00" duration-ms="4963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:09 GMT-04:00" name="verifyLoginWithInvalidCredentials" finished-at="2023-05-28T14:17:09 GMT-04:00" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:09 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:17:09 GMT-04:00" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:09 GMT-04:00" name="setup" finished-at="2023-05-28T14:17:14 GMT-04:00" duration-ms="5266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidUsernameInvalidPassword()[pri:3, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:14 GMT-04:00" name="verifyLoginWithValidUsernameInvalidPassword" finished-at="2023-05-28T14:17:15 GMT-04:00" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:15 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:17:15 GMT-04:00" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:15 GMT-04:00" name="setup" finished-at="2023-05-28T14:17:20 GMT-04:00" duration-ms="4958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidUsernameValidPassword()[pri:4, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:20 GMT-04:00" name="verifyLoginWithInvalidUsernameValidPassword" finished-at="2023-05-28T14:17:21 GMT-04:00" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:21 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:17:21 GMT-04:00" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:21 GMT-04:00" name="setup" finished-at="2023-05-28T14:17:26 GMT-04:00" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:26 GMT-04:00" name="verifyLoginWithNoCredentials" finished-at="2023-05-28T14:17:27 GMT-04:00" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.LoginTest@692f203f]" started-at="2023-05-28T14:17:27 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:17:27 GMT-04:00" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tn.qa.testcases.LoginTest -->
+      <class name="com.tn.qa.testcases.SearchProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:43 GMT-04:00" name="setup" finished-at="2023-05-28T14:16:47 GMT-04:00" duration-ms="3707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:47 GMT-04:00" name="verifySearchWithValidProduct" finished-at="2023-05-28T14:16:48 GMT-04:00" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:48 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:16:49 GMT-04:00" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:49 GMT-04:00" name="setup" finished-at="2023-05-28T14:16:52 GMT-04:00" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:52 GMT-04:00" name="verifySearchWithInvalidProduct" finished-at="2023-05-28T14:16:53 GMT-04:00" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:53 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:16:54 GMT-04:00" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:54 GMT-04:00" name="setup" finished-at="2023-05-28T14:16:57 GMT-04:00" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithoutProduct()[pri:3, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:16:57 GMT-04:00" name="verifySearchWithoutProduct" finished-at="2023-05-28T14:17:03 GMT-04:00" depends-on-methods="com.tn.qa.testcases.SearchProductTest.verifySearchWithInvalidProduct" duration-ms="6198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.SearchProductTest@4c583ecf]" started-at="2023-05-28T14:17:03 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:17:04 GMT-04:00" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tn.qa.testcases.SearchProductTest -->
+      <class name="com.tn.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:15 GMT-04:00" name="setup" finished-at="2023-05-28T14:16:21 GMT-04:00" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerAccountWithMandatoryFields()[pri:1, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:21 GMT-04:00" name="registerAccountWithMandatoryFields" finished-at="2023-05-28T14:16:23 GMT-04:00" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:23 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:16:23 GMT-04:00" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:23 GMT-04:00" name="setup" finished-at="2023-05-28T14:16:29 GMT-04:00" duration-ms="5948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerAccountWithAllFields()[pri:2, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:29 GMT-04:00" name="registerAccountWithAllFields" finished-at="2023-05-28T14:16:31 GMT-04:00" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:31 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:16:31 GMT-04:00" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:31 GMT-04:00" name="setup" finished-at="2023-05-28T14:16:36 GMT-04:00" duration-ms="5454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerAccountWithExistingEmail()[pri:3, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:36 GMT-04:00" name="registerAccountWithExistingEmail" finished-at="2023-05-28T14:16:37 GMT-04:00" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:37 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:16:37 GMT-04:00" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:37 GMT-04:00" name="setup" finished-at="2023-05-28T14:16:43 GMT-04:00" duration-ms="5588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerAccountWithoutFillingAnyFields()[pri:4, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:43 GMT-04:00" name="registerAccountWithoutFillingAnyFields" finished-at="2023-05-28T14:16:43 GMT-04:00" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithoutFillingAnyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tn.qa.testcases.RegisterTest@49139829]" started-at="2023-05-28T14:16:43 GMT-04:00" name="tearDown" finished-at="2023-05-28T14:16:43 GMT-04:00" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tn.qa.testcases.RegisterTest -->
+    </test> <!-- TN Test -->
+  </suite> <!-- TN Suite -->
+</testng-results>
